@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarStore</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
@@ -73,6 +74,10 @@
                              <input type="checkbox" name="opicional[]" id="cameradere" value="cameradere">
                             <label for="cameradere">Câmera de ré</label>
                         </li>
+                        <li>
+                            <label for="outro">Outro<span>*</span></label>
+                    <input type="text" name="outro" id="outro" placeholder="Outra informação">
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -98,8 +103,13 @@
                     <p>Foto do carro <span>*</span></p>
                     <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg">
                 </div>
+                <input type="submit" value="Enviar">
             </form>
+            <hr>
+            <h2>Carro Cadastrados</h2>
+            <div></div>
         </div>
     </div>
+    <script src="script/script.js"></script>
 </body>
 </html> 

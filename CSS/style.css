@@ -40,6 +40,11 @@ textarea {
     color: #ccc;
     margin-top: 0;
 }
+.form-conatiner {
+    background-color: #dfdfdf;
+    width: 60%;
+    margin:0 auto;
+}
 
 ul {
     list-style: disc;

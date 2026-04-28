@@ -49,12 +49,12 @@ textarea {
     top: -46px;
 }
 
-.fomr-header {
+.form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
-.fomr-header p {
+.form-header p {
     color:black;
     border-bottom: 2px solid black;
     width: 100%;
@@ -63,4 +63,20 @@ textarea {
     text-transform: uppercase;
     height: 45px;
     list-style: 45px;
+}
+
+.form-body {
+    padding:30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-botton: 20px;
+}
+
+.campo-obrigatorio {
+    color:crimson;
 }

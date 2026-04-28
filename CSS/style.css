@@ -40,6 +40,7 @@ textarea {
     color: #ccc;
     margin-top: 0;
 }
+
 .form-conatiner {
     background-color: #dfdfdf;
     width: 60%;
@@ -48,11 +49,6 @@ textarea {
     top: -46px;
 }
 
-ul {
-    list-style: disc;
-    padding-left:20px;
-}
-li {
-    list-style: disc;
-    padding-left:20px;
+.fomr-header {
+    border-bottom: 1px solid #dfdfdf;
 }

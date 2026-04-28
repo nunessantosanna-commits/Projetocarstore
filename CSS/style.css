@@ -41,7 +41,7 @@ textarea {
     margin-top: 0;
 }
 
-.form-conatiner {
+.form-container {
     background-color: #dfdfdf;
     width: 60%;
     margin:0 auto;
@@ -51,4 +51,9 @@ textarea {
 
 .fomr-header {
     border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.fomr-header p {
+
 }

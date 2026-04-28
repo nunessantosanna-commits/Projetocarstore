@@ -55,5 +55,10 @@ textarea {
 }
 
 .fomr-header p {
-
+    color:black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
 }

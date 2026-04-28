@@ -23,7 +23,7 @@
             <form onsubmit="salvarCarros(event)">
                 <div class="caixaInputs">
                     <!-- Fixed: Added missing opening quote for "title" -->
-                    <label for="title">Título do anúncio<span>*</span></label>
+                    <label for="title">Título do anúncio<span class="campo-obrigatorio">*</span></label>
                     <input type="text" name="title" id="title" placeholder="Um título para anunciar seu carro">
                 </div>
                 <div class="caixaInputs">
@@ -45,12 +45,12 @@
 
                 <div class="caixaInputs">
                     <!-- Fixed: Added missing opening quote for "quilometragem" -->
-                    <label for="quilometragem">Quilometragem<span>*</span></label>
+                    <label for="quilometragem">Quilometragem<span class="campo-obrigatorio">*</span></label>
                     <input type="number" name="quilometragem" id="quilometragem" placeholder="Quilometragem do carro">
                 </div>
 
                 <div class="caixaInputs">
-                    <label for="data-compra">Data de compra<span>*</span></label>
+                    <label for="data-compra">Data de compra<span class="campo-obrigatorio">*</span></label>
                     <!-- Fixed: Closed the input tag -->
                     <input type="date" name="data-compra" id="data-compra">
                 </div>
@@ -112,7 +112,7 @@
                     </ul>
                 </div>
                 <div class="caixaInputs">
-                    <p>Foto do carro <span>*</span></p>
+                    <p>Foto do carro <span class="campo-obrigatorio">*</span></p>
                     <!-- Fixed: Added .jpeg and corrected attribute syntax -->
                     <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpeg, image/jpg">
                 </div>

@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(190, 229, 211);
+    background-color: rgb(165, 130, 221);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,10 +33,15 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: rgb(137, 179, 179);
+    background-color: rgb(123, 97, 218);
 }
 
 .cabecalho h3 {
     color: #ccc;
     margin-top: 0;
+}
+
+ul {
+    list-style: disc;
+    padding-left:20px;
 }

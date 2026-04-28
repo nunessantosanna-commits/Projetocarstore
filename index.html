@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarStore</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
- <header class="cabecalho">
+    <header class="cabecalho">
         <h3>Cadastre seu veículo para vender mais rápido</h3>
     </header>
-<div class="form-container">
-    <div class="form-header">
+    <div class="form-container">
+        <div class="form-header">
             <p>Formulário</p>
         </div>
 
@@ -25,32 +27,34 @@
                     <input type="text" name="title" id="title" placeholder="Um título para anunciar seu carro">
                 </div>
                 <div class="caixaInputs">
-                    <!-- Fixed: Added missing opening quote for "preco" -->
-                    <label for="preco">Preço<span>*</span></label>
+                    <label for="preco">Preço<span class="campo-obrigatorio">*</span></label>
                     <input type="number" name="preco" id="preco" placeholder="Defina o preço">
                 </div>
                 <div class="caixaInputs">
-                    <label for="descricao">Descrição <span>*</span></label>
+                    <label for="descricao">Descrição <span class="campo-obrigatorio">*</span></label>
                     <textarea name="descricao" id="descricao" placeholder="Faça a descrição de seu veículo"></textarea>
                 </div>
                 <div class="caixaInputs">
-                    <label for="marca">Marca<span>*</span></label>
+                    <label for="marca">Marca<span class="campo-obrigatorio">*</span></label>
                     <input type="text" name="marca" id="marca" placeholder="Marca do veículo">
                 </div>
                 <div class="caixaInputs">
-                    <label for="modelo">Modelo<span>*</span></label>
+                    <label for="modelo">Modelo<span class="campo-obrigatorio">*</span></label>
                     <input type="text" name="modelo" id="modelo" placeholder="Modelo do veículo">
                 </div>
+
                 <div class="caixaInputs">
                     <!-- Fixed: Added missing opening quote for "quilometragem" -->
                     <label for="quilometragem">Quilometragem<span>*</span></label>
                     <input type="number" name="quilometragem" id="quilometragem" placeholder="Quilometragem do carro">
                 </div>
+
                 <div class="caixaInputs">
                     <label for="data-compra">Data de compra<span>*</span></label>
                     <!-- Fixed: Closed the input tag -->
                     <input type="date" name="data-compra" id="data-compra">
                 </div>
+
                 <div class="caixaInputs">
                     <p>Tipo de Câmbio: <span>*</span></p>
                     <input type="radio" name="marcha" id="manual">
@@ -58,6 +62,7 @@
                     <input type="radio" name="marcha" id="auto">
                     <label for="auto">Automático</label>
                 </div>
+
                 <div class="caixaInputs">
                     <p>Opcionais</p>
                     <ul>
@@ -82,25 +87,27 @@
                 <div>
                     <ul>
                         <li>
-                            <input type="checkbox" name="opicional[]" id="assistenciadepista" value="assistenciadepista">
+                            <input type="checkbox" name="opicional[]" id="assistenciadepista"
+                                value="assistenciadepista">
                             <label for="assistenciadepista">Assistência de pista</label>
                         </li>
-                        <li>
-                            <input type="checkbox" name="opicional[]" id="partidasemchave" value="partidasemchave">
-                            <label for="partidasemchave">Partida sem chave</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="opicional[]" id="integracaocomcelular" value="integracaocomcelular">
-                            <label for="integracaocomcelular">Integração com celular</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="opicional[]" id="bancodecouro" value="bancodecouro">
-                            <label for="bancodecouro">Banco de couro</label>
-                        </li>
-                        <li>
-                            <label for="outro">Outro<span>*</span></label>
-                            <input type="text" name="outro" id="outro" placeholder="Outra informação">
-                        </li>
+                    </ul>
+                    <input type="checkbox" name="opicional[]" id="partidasemchave" value="partidasemchave">
+                    <label for="partidasemchave">Partida sem chave</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="opicional[]" id="integracaocomcelular"
+                            value="integracaocomcelular">
+                        <label for="integracaocomcelular">Integração com celular</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="opicional[]" id="bancodecouro" value="bancodecouro">
+                        <label for="bancodecouro">Banco de couro</label>
+                    </li>
+                    <li>
+                        <label for="outro">Outro<span>*</span></label>
+                        <input type="text" name="outro" id="outro" placeholder="Outra informação">
+                    </li>
                     </ul>
                 </div>
                 <div class="caixaInputs">
@@ -111,7 +118,10 @@
                 <input type="submit" value="Enviar">
             </form>
             <hr>
+            <h2>Carros Cadastrados</h2>
+        </div>
     </div>
-    <script src="script/script.js"></script>
+
+        <script src="script/script.js"></script>
 </body>
 </html>
